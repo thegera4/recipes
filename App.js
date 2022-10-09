@@ -61,7 +61,9 @@ export default function App() {
             name="Drawer"
             component={ DrawerNavigator }
             options={{ headerShown: false }}/>
-          <Stack.Screen name="MealsOverview" component={ MealsOverviewScreen } />
+          <Stack.Screen 
+            name="MealsOverview" 
+            component={ MealsOverviewScreen } />
           <Stack.Screen
             name="MealDetail"
             component={ MealDetailScreen }
